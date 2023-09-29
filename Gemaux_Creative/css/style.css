@@ -1,0 +1,525 @@
+header{
+    background-color: #4D4D4D;
+    padding: 20px 0;
+}
+h3{
+    font-weight: bold;
+}
+header .container.flex{
+    align-items: center;
+}
+header .container{
+    padding: 0;
+}
+header a{
+    color: whitesmoke;
+    transition: .5s;
+}
+header a:hover{
+    opacity: .5;
+    color: whitesmoke;
+}
+header .links a{
+    margin: 0 20px;
+    font-size: 1.2rem;
+}
+header .links i{
+    display: none;
+    font-size: 1.5rem;
+}
+header span{
+    color: orange;
+}
+header .menu{
+    display: none;
+    color: white;
+    transition: .5s;
+}
+header .menu i{
+    font-size: 1.5rem;
+}
+header .menu:hover{
+    opacity: .5;
+}
+
+.banner{
+    width: 50%;
+    padding: 75px 0 20px 0;
+    line-height: 3rem;
+   /* min-height: 100vh; */
+}
+p,li{
+    font-size: 1.2rem;    
+}
+
+.services{
+    width: 100%;
+    /* min-height: 80vh; */
+   
+}
+section h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+}
+.services h1 span{
+    color: orange;
+}
+.services .box{
+    width: 60%;
+    margin: 0 auto;
+}
+.services .box .img_box{
+    width: 25%;
+}
+.services .box .img_box img{
+    width: 200px;
+}
+.services .box .text_box{
+    line-height: 3rem;
+    padding-top: 32px;
+    padding-left: 80px;
+    
+}
+
+.portfolio span{
+    color: orange;
+}
+.portfolio{
+    line-height: 3rem;
+    
+}
+.quotes{
+    padding: 20px;
+}
+.quote{
+    width: 48%;
+}
+.quotes.flex{
+    flex-wrap: wrap;
+}
+.cards.flex{
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.card{
+    min-width: 400px;
+    min-height: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    background: rgb(231,231,236);
+    background: linear-gradient(90deg, rgba(231,231,236,1) 0%, rgba(238,220,74,1) 100%);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.112);
+}
+.card.flex{
+    flex-direction: column;
+}
+.card li{
+    text-align: left;
+}
+.partners{
+    padding: 20px;
+}
+.partners span{
+    color: orange;
+}
+.partners .logo_box{
+    width: 100%;
+}
+.partners .logo_box img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    padding: 10px;
+    margin: 0 auto;
+}
+.partners .logo_box.flex{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+.branding .headbox{
+    padding: 20px;
+}
+.branding .cards{
+    padding: 15px 0;
+}
+.branding .cards.flex{
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.branding .card{
+    width: 2%;
+    margin: 0 auto;
+}
+.branding .card h3{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.branding .headbox{
+    line-height: 3rem;
+}
+.media_planning span{
+    color: orange;
+}
+.media_planning .footer_card{
+    padding: 5px;
+    min-width: 20%;
+    min-height: 200px;
+    /* border: 1px solid black; */
+}
+.media_planning .cards{
+    width: 100%;
+    margin: 0 auto;
+}
+.media_planning .cards.flex{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+.media_planning .footer_card h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.media_planning .footer_card li{
+    list-style-type: circle;
+    font-size: 1rem;
+}
+.footer p{
+    font-size: 0.7rem;
+}
+.footer .icons i{
+        font-size: 2rem;
+        margin: 0 10px;
+        transition: 0.5s;
+}
+.footer .icons i:nth-child(1):hover{
+    color:#3b5998 ;
+}
+.footer .icons i:nth-child(2):hover{
+    color: pink;
+}
+.footer .icons i:nth-child(3):hover{
+    color: #075e54;
+}
+.footer .icons i:nth-child(4):hover{
+    color: #26a7de;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    body{
+        position: relative;
+        height: auto;
+    }
+
+    header .links{
+       display: flex;
+       flex-direction: column;
+       width: 0;
+       background-color: rgba(0, 0, 0, 0.637);
+       z-index: 1000;
+       position: fixed;
+        right: 0;top: 0;
+        overflow-x: hidden;
+        height: 100%;
+        transition: 0.2s;
+    }
+    .active{
+        transform: translateY(0%);
+    }
+    header .links a{
+        font-size: 1rem;
+        padding: 10px;
+        border-bottom: 1px solid rgba(245, 245, 245, 0.306);
+    }
+    header .links i{
+        display: inline-block;
+        margin-left: 30px;
+        font-size: 0.7rem;
+    }
+    header .menu{
+        display: block;
+    }
+    .banner{
+        width: 80%;
+        line-height: 2rem;
+    }
+    .banner p,li{
+        font-size: 1rem;
+    }
+    .services .box{
+        width: 100%; 
+    }
+    .services .box .img_box{
+        width: 40%;
+    }
+    .services .box .img_box img{
+        width: 150px;
+    }
+    .services .box .text_box{
+        line-height: 2.5rem;
+        padding-top: 32px;
+        padding-left: 30px;
+    }
+    .services .box .text_box p{
+        font-size: 1rem;
+    }
+
+    .portfolio{
+        line-height: 3rem;
+    }
+    .portfolio .paragraph{
+        padding-top: 20px;
+    }
+    .quotes{
+        padding: 20px;
+    }
+    .quote{
+        width: 48%;
+    }
+    .portfolio h3{
+        font-size: 1.2rem;
+    }
+    .portfolio p{
+        font-size: 0.9rem;
+    }
+    .quotes.flex{
+        flex-wrap: wrap;
+    }
+
+    .partners .logo_box img{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        padding: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px){
+    header{
+        padding: 0 20px;
+    }
+    header h1{
+        font-size: 18px;
+        min-height: 30px; 
+    }
+    header h1.flex{
+        align-items: center;
+    }
+    .banner{
+        width: 100%;
+        padding: 15px 0 0 0;
+        /* height: 124vh; */
+    }
+    /* .services{
+        height: 80vh;
+    } */
+    .services .box{
+        width: 100%;
+    }
+    .services h1{
+        font-size: 2rem;
+    }
+    .services .box .img_box{
+        width: 50%;
+    }
+    .services .box .img_box img{
+        width: 100px;
+    }
+    .services .box .text_box{
+        line-height: 1.5rem;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .services .box .text_box p{
+        font-size: 0.7rem;
+    }
+
+    .portfolio{
+        line-height: 3rem;
+    }
+    .portfolio h1{
+        font-size: 2rem;
+    }
+    .portfolio .paragraph{
+        padding-top: 20px;
+    }
+    .quotes{
+        padding: 20px;
+    }
+    .quote{
+        width: 100%;
+    }
+    .portfolio h3{
+        font-size: 1.2rem;
+    }
+    .portfolio .quote h3{
+        font-size: 0.9rem;
+    }
+    .portfolio p{
+        font-size: 0.9rem;
+    }
+    .card{
+        min-width: 280px;
+        min-height: 200px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .card h3{
+        font-size: 1.2rem;
+    }
+    .partners h1{
+        font-size: 1.5rem;
+    }
+    .portfolio h1{
+        font-size: 1.5rem;
+    }
+    .branding .headbox{
+        padding: 20px;
+    }
+    .branding .headbox h4{
+        font-weight: bold;
+    }
+    .branding .headbox p,h4{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .branding p{
+        font-size: 1rem;
+    }
+    .partners .logo_box img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .media_planning h1{
+        font-size: 1.5rem;
+    }
+    .media_planning .footer_card h4{
+        font-size: 0.9rem;
+    }
+    .media_planning .plan_head p{
+        font-size: 0.9rem;
+        padding-top: 5px;
+    }
+    .branding h1{
+        font-size: 1.5rem;
+    }
+    .branding h4{
+        font-size: 0.9rem;
+    }
+    .branding .card h3{
+        font-size: 0.9rem;
+    }
+    .branding .card p{
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:320px){
+    .services h1{
+        font-size: 1.5rem;
+    }
+ 
+    .services .box{
+        width: 100%; 
+    }
+
+    .services .box .img_box img{
+        width: 70px;
+    }
+    .services .box .text_box{
+        line-height: 1.5rem;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .services .box .text_box p{
+        font-size: 0.7rem;
+    }
+ 
+    .card{
+        min-width: 100%;
+        min-height: 200px;
+        /* padding: 10px; */
+        margin: 0 auto;
+    }
+    .card h3{
+        font-size: 1rem;
+    }
+    .footer .icons i{
+        font-size: 1.5rem;
+        margin: 0 5px;
+        transition: 0.5s;
+    }
+    .partners .logo_box img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .partners .logo_box.flex{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+    .banner{
+        min-height: 150vh;
+    }
+    /* .services{
+        min-height: 110vh;
+    } */
+}
