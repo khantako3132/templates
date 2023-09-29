@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+body{
+    position: relative;
+}
+section{
+    min-height: 100vh;
+}
+.header .header-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    font-size: 1.1rem;
+    
+}
+.header .header-1 a{
+    color: #000;
+}
+.header .header-1 a:hover{
+    color: brown;
+}
+.header .header-1 *{
+    margin: 0px 15px;
+}
+.header .header-1 .icon{
+    position: relative;
+}
+.header .header-1 .icon span{
+    border: 1px solid black;
+    padding: 5px;
+    font-size: .8rem;
+    display: none;
+    width: fit-content;
+    position: absolute;
+    background-color: white;
+    
+}
+.header .header-1 .icon span.active{
+    display: block;
+}
+#more{
+    color: red;
+}
+#try{
+    color: blue;
+}
+#try:hover{
+    color: rgb(70, 70, 221);
+}
+.header .header-2{
+    width: 100%;
+    background-color: #ccccccbd;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+.header .header-2.active{
+    position: fixed;
+    top: 0;right: 0;left: 0;
+    z-index: 1000;
+}
+.header .header-2 a{
+    color: #000;
+    margin-left: 20px;
+}
+.header .header-2 a:hover{
+    color: brown;
+}
+.header .media-header{
+display: none; 
+}
+.header .media-header .content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+
+}
+.header .media-header .content a{
+    color: black;
+}
+
+
+.header .media-header .menu{
+    
+    display: none;
+    background-color: blue;
+}
+.header .media-header .menu *{
+    color: #ccc;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+.header .media-header .menu a:hover{
+    background-color: rgb(114, 114, 233);
+    color: yellow;
+}
+.header .media-header .menu .more h3{
+    font-size: 1.5rem;
+    color: black;
+}
+.header .media-header .menu .more .text{
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+.header .media-header .menu .more .text p{
+    color: black;
+    font-size: .8rem;
+}
+.header .media-header .menu .text h4{
+    font-size: 1.1rem;
+    color: #000;
+}
+.banner .banner-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    /* background-color: aqua; */
+}
+.banner .banner-container .banner-image{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px ;
+}
+.banner .banner-container .banner-image img{
+    width: 1000px;
+    height: 400px;
+    object-fit: cover;
+}
+.banner .banner-container .banner-content{
+    /* background-color: red; */
+    width: 50%;
+   margin-bottom: 20px;
+   text-align: start;
+}
+.making-music .music-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+    /* background-color: red; */
+}
+
+.making-music .music-container .music-image-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.making-music .music-container .music-image-box img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+#img1{
+    padding: 50px;
+}
+#img2{
+    padding: 120px;
+}
+.making-music .music-container .music-image-box .box{
+    background-color: rgb(241, 241, 166);
+    position: absolute;
+    right: 0;top: 0;
+    width: 60%;
+    height: 100%;
+    z-index: -1000;
+}
+.making-music .music-container .music-content{
+    width: 50%;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.video .video-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: red; */
+    margin: 20px auto;
+}
+.video .video-container .video-box{
+    width: 50%;
+}
+.video .video-container .video-box iframe{
+    width: 100%;
+}
+.video .video-container .video-content{
+    text-align: start;
+    width: 50%;
+    margin-top: 20px;
+}
+.instrument .instrument-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    overflow-x: hidden;
+}
+.instrument .instrument-container .instrument-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.instrument .instrument-container .instrument-box .box{
+    width: 60%;
+    position: absolute;
+    left: -5%;top: 0;
+    height: 100%;
+    z-index: -1000;
+    background-color: lightgreen;
+}
+.instrument .instrument-container .instrument-box .instru-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.instrument .instrument-container .instrument-box .instru-image img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 10px;
+    padding: 50px;
+}
+.instrument .instrument-container .instrument-box img{
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    padding: 100px;
+
+}
+.instrument .instrument-container .instrument-content{
+    text-align: start;
+    width: 50%;
+    margin-top:20px ;
+} 
+.passionate .passionate-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.passionate .passionate-container .passio-image{
+    width: 100%;
+    height: 100%;
+    margin-top:20px ;
+}
+
+.passionate .passionate-container .passio-image img{
+    width: 1000px;
+    height: 800px;
+    object-fit: cover;
+    
+}
+
+.passionate .passionate-container .passio-content{
+    text-align: start;
+    width: 50%;
+    margin: 20px auto;
+
+}
+
+.employee .employee-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    
+
+}
+.employee .employee-container .employee-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    position: relative;
+    min-height: 600px;
+    /* background-color: red; */
+}
+.employee .employee-container .employee-image .box{
+    position: absolute;
+    left: 20%;right: 10%;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(248, 131, 248);
+    z-index: -1000;
+}
+.employee .employee-container .employee-image img{
+    width: 500px;
+    height: 800px;
+    object-fit: cover;
+   /* position: absolute; */
+}
+#img3{
+    padding: 50px;
+    width: 500px;
+    height:400px;
+}
+#img4{
+    padding: 40px;
+    width: 50%;
+    height: 100%;
+
+}
+.employee .employee-container .content{
+    width: 50%;
+    text-align: start;
+    margin: 20px 0;
+}
+
+.jobs .jobs-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    background-color: skyblue;
+}
+.jobs .jobs-container .job-image{
+    flex: 1;
+    height: 500px;
+}
+.jobs .jobs-container .job-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jobs .jobs-container .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 80px; 
+    
+}
+.jobs .jobs-container .content h3{
+    padding: 0 100px;
+}
+.jobs .jobs-container .content a{
+    
+    padding: 0 100px;
+}
+.jobs .jobs-container .content a:hover{
+    color: rgb(89, 89, 241);
+
+}
+.footer{
+    border-top: 1px solid #ccc;
+    margin-top: -60px;
+    position: relative;
+}
+.footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.footer .footer-container .footer-cards{
+    flex: 1 1 25rem;
+    margin-bottom: 20px;
+}
+
+.footer .footer-container .footer-cards .footer-content{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links{ 
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links a{
+    color: #3477F2;
+}
+.footer-links a:hover{
+    color: #79a3f3;
+}
+.footer-icons{
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    color: white;
+}
+.footer-icons a{
+    margin: 0 20px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+#fb{
+    background-color: #3477F2;
+    color: white;
+}
+#ig{
+    background-color: orange;
+}
+#tt{
+    background-color: #3477F2;
+}
+#yt{
+    background-color: red;
+}
+.footer-form{
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+.footer-form input{
+    width: 100%;
+    color: #3477F2;
+    padding: 0 20px;
+}
+
+.footer-form .btn{
+    position: absolute;
+    top: 0;right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #3477F2;
+    border: none;
+    color: #fff;
+
+}
+.footer-form .btn:hover{
+    background-color: #719ef1;
+}
+.footer h2{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.footer .nav{
+    display: flex;
+
+}
+.footer .nav .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .nav .nav-links a{
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: .9rem;
+    color: blue;
+}
+.footer .nav .nav-links a:hover{
+    color: #719ef1;
+}
+#logo{
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .header .header-1{
+        display: none;
+    }
+    .header .media-header {
+        display: block;
+    }
+    .header .media-header .menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header .header-2{
+        display: none;
+    }
+    .banner .banner-container .banner-image img{
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .making-music .music-container .music-image-box img{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        margin: 20px;
+    }
+    #img1{
+        padding: 0;
+    }
+    #img2{
+        padding: 0;
+    }
+    .instrument .instrument-container .instrument-box .instru-image img{
+        padding: 0;
+    }
+    .instrument .instrument-container .instrument-box img{
+        padding: 0;
+        margin: 10px 0;
+        width: 500px;
+        height: 500px;
+    }
+
+    .passionate .passionate-container .passio-image img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .employee .employee-container .employee-image .box{
+        width: 100%;
+        left: 0;right: 0;
+        
+    }
+    .employee .employee-container .employee-image img{
+        margin: 10px;
+    }
+    #img3{
+        padding: 0;
+        width: 500px;
+        height: 500px;
+    }
+    #img4{
+        padding: 0;
+        width: 500px;
+        height: 500px;
+
+    }
+    .jobs .jobs-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .jobs .jobs-container .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        padding: 80px; 
+        background-color: skyblue;
+    }
+    .footer .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer .nav .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #logo{
+        position: relative;
+    }
+    
+}
+
+@media(max-width:768px){
+    .header .header-1{
+        display: none;
+    }
+    .header .media-header {
+        display: block;
+    }
+    .header .media-header .menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header .header-2{
+        display: none;
+    }
+    .banner .banner-container .banner-image img{
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .making-music .music-container .music-image-box img{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        margin: 20px;
+    }
+    #img1{
+        padding: 0;
+    }
+    #img2{
+        padding: 0;
+    }
+    .instrument .instrument-container .instrument-box .instru-image img{
+        padding: 0;
+    }
+    .instrument .instrument-container .instrument-box img{
+        padding: 0;
+        margin: 10px 0;
+        width: 500px;
+        height: 500px;
+    }
+    .passionate .passionate-container .passio-image img{
+        width: 500px;
+        height: 500px;
+    }
+    .employee .employee-container .employee-image .box{
+        width: 100%;
+        left: 0;right: 0;
+       
+    }
+    .employee .employee-container .employee-image img{
+        margin: 10px;
+    }
+    #img3{
+        padding: 0;
+        width: 500px;
+        height: 500px;
+    }
+    #img4{
+        padding: 0;
+        width: 500px;
+        height: 500px;
+
+    }
+    .jobs .jobs-container{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .jobs .jobs-container .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        padding: 80px; 
+        background-color: skyblue;
+        
+    }
+    .footer .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer .nav .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #logo{
+        position: relative;
+    }
+}
