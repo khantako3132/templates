@@ -1,0 +1,1106 @@
+@media(max-width:1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+        
+    .header{
+        overflow: hidden;
+    }
+    .header .lsec img{
+        padding: 20px;
+        width: 150px;
+    }
+       .header .lsec p{
+       font-size: 12px;
+    }
+    .header.flex{
+        align-items: center;
+    }
+    .head ul li{
+        width: 22%;
+        
+      }
+      .head ul li a{
+        width: 500px;
+      }
+    .banner-box.flex{
+        flex-direction: column;
+    }
+    .banner .container .banner-box .img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner .container .banner-box .text{
+        width: 100%;
+        margin: 0 auto;
+        line-height: 2.5rem;
+    }
+    .lrb{
+        width: unset;
+    }
+    .recommend .container{
+        max-width: 100%;
+        width: 95%;
+    }
+    .recommend-box{
+        max-width: 100%;
+        width: 95%;
+        padding: 30px 0;
+        display: block;
+    }
+    .banner .container .banner-box .img{
+        width: 100%;
+        height: 372px;
+        position: relative;
+    }
+    .small-box{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 0;
+        text-align: center;
+        background-color: #13B8C6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+    }
+    .lrb .recommend-cards .card .img {
+        position: relative;
+    }
+    .lrb-side{
+        border: none;
+        padding-right: 0;
+        width: unset;
+    }
+    .lrb .head{
+        padding: 0;
+    
+    }
+    .lrb .head h3{
+        padding-left: 0;
+    }
+    .lrb .header p{
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .lrb .recommend-cards{
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        width: unset;
+    }
+    .lrb .recommend-cards .card{
+        width: 45%;
+        position: relative;
+        margin-right: 0;
+        padding-top: 10px;
+    } 
+    .lrb .recommend-cards .card .img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .lrb .recommend-cards .card3{
+        margin-top: 0;
+     }
+     .lrb .recommend-cards .card4{
+         margin-top: 0;
+         margin-left: 0;
+      }
+      .lrb .recommend-cards .card .text{
+        padding-top: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .lrb .recommend-cards .card .text h2{
+        margin-top: 0;   
+    }
+    .lrb .recommend-cards .card .text p{
+        padding-top: 0;
+    }
+    .category{
+        padding-top: 0;
+    }.category .category-box{
+        padding-right: 0;
+    }
+    .category .category-box .header h2{
+        margin-left: 0;   
+    }
+    .category .category-box .header p{
+        padding-right: 0;
+    }
+    .category-cards{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .category-card{
+        width: 90%;
+        /* height: 224px; */
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .category-card .text{
+        padding-top:0 ;
+        padding-right: 0;
+        line-height: 2rem;
+        width: 80%;
+        margin: 0;
+    }
+    
+    .category-card .text p{
+        padding-top: 0;
+    }
+    .rrb{
+        width: unset;
+        padding-left: 0;
+    }
+    .rrb .container{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .rrb .container .fir-sec{
+        width: 100%;
+    }
+    .rrb .container .head{
+        padding: 10px 60px;
+        width: 100%;
+    }
+    .rrb .container .head h3{
+        margin-right: 0;
+    }
+    .rrb .rrb-cards{
+        padding-top: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .rrb .rrb-cards .card3{
+        margin-top: 0;
+    }
+    .rrb .rrb-cards .card{
+        padding: 0;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .rrb .rrb-cards .card .img{
+        width: 30%;height: 30%;
+        
+    }
+    .rrb .rrb-cards .card.flex{
+       align-items: flex-start;
+    }
+    .rrb .rrb-cards .card4{
+        margin-top: 0;
+    }
+    .rrb .rrb-cards .card .text{
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 65%;
+        /* text-align: ;center */
+        padding-bottom: 10px;
+    }
+    .rrb .rrb-cards .card5{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card3 .text p{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card5 .text p{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card2 .text p{
+        padding-bottom: 0;
+    }
+    .about{
+        margin-left: 0;
+        max-width: 100%;
+        width: 95%;
+    }
+    .about .head{
+        max-width: 100%;
+        width: 95%;
+            
+    }
+    .about .head .header{
+        padding-right: 0;
+        max-width: 100%;
+        width: 95%;
+            
+    }
+    .about .head .image img{
+        padding-top: 0;
+        width: 95%;
+        max-width: 100%;
+    }
+    .about .head .text-box{
+        margin-top: 13px;
+    }
+    .about .head .text-box span{
+        margin-left: 9px;
+    }
+    .about .head .button{
+        margin-top: 10px;
+        margin-right: 0;
+        padding: 1;
+        width: 30%;
+    }
+    .facebook{
+        padding-top: 0;
+        margin-left: 0;
+        max-width: 100%;
+        width: 95%;
+            
+    }
+    .fbinfo.flex{
+        flex-direction: row;
+    }
+    .fbinfo{
+        max-width: 100%;
+        width: 95%;
+    }
+    .facebook .head{
+        max-width: 100%;
+        width: 95%;
+        margin-top: 0;
+        padding: 0;
+    }
+    .facebook .head  .image{
+        margin: 0;
+        margin-left: 0;
+    }
+    .facebook .head .header{
+        margin-left: 0;
+    }
+    .facebook .head .header h2{
+        padding-right: 0;
+    }
+    .facebook .head .text-box{
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+    .facebook .head .text-box span{
+        padding-right: 0;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    .facebook .head .text-box p{
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .related{
+        margin-top: 45px;
+        min-height: 270px;
+        padding-bottom: 10px;
+    }
+    .related .container{
+        padding: 0;
+        max-width: 100%;
+        width: 95%;
+    }
+    .related .container .head{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .related .container .header p{
+        margin-top: 0;
+        margin-right: 0;
+        padding-bottom: 0;
+    }
+    .related-cards.flex{
+        flex-direction: column;
+    }
+    .related-cards{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .related-cards .card{
+        margin-top: 10px;
+    }
+    .related-cards .card img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .footer{
+        width: 100%;
+        overflow-y: hidden;
+        padding: 10px 0;
+    }
+    .footer .container{
+        padding-top: 0;
+        max-width: 100%;
+        width: 95%;
+        }
+    .footer .container .foot-box .links a{
+      display: none;
+    }
+    .footer .container .foot-box .rlinks{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer .container .foot-box .rlinks .a2{
+        margin-left: 0;
+    }
+    .footer .container .foot-box i{
+        padding-top: 0;
+        margin-right: 10px;
+    }
+    .footer .container  h5{
+       margin-top: 25px;
+    }
+    
+    .footer .container .foot-box .rlinks .a1,.a2{
+        font-size: 14px;
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header{
+        overflow: hidden;
+    }
+    .header .lsec img{
+        padding: 20px;
+        width: 150px;
+    }
+       .header .lsec p{
+       font-size: 12px;
+    }
+    .header.flex{
+        align-items: center;
+    }
+    .menu{
+        display: block;
+        color: black;
+      }
+      .head{
+        width: 10%;
+      }
+      .head nav{
+        position: fixed;
+        width: 300px;
+        top: 0;
+        right: -300px;
+        background-color: white;
+        height: 100%;
+        padding-top: 60px;
+        z-index: 11111;
+      }
+
+    .head nav ul li{
+      width: 80%;
+      padding: 0 15px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.265);
+    }
+    
+    .head nav ul li a{
+          color: black;
+        padding-left: 12px;
+      }
+
+      .head .btn-gnavi{
+        position: fixed;
+        top: 20px;
+        /* right: 20px; */
+        width: 30px;
+        height: 24px;
+        z-index: 333333333;
+        cursor: pointer;
+        transition: all 400ms;
+        -webkit-transition:all 400ms;
+      }
+
+      .head .btn-gnavi span{
+          position: absolute;
+          width: 30px;
+          height: 4px;
+          background-color: black;
+          border-radius: 10px;
+          -webkit-transition: all 400ms;
+          transition: all 400ms
+      }
+
+      .head .btn-gnavi span:nth-child(1){
+        top: 0;
+      }
+
+      .head .btn-gnavi span:nth-child(2){
+        top: 10px;
+      }
+
+      .head .btn-gnavi span:nth-child(3){
+        top: 20px;
+      }
+
+      .head .btn-gnavi.hb-open{
+        transform: rotate(180deg);
+        -webkit-transform:rotate(180deg);
+      }
+
+      .head .btn-gnavi.hb-open span{
+        background: black;
+      }
+
+      .head .btn-gnavi.hb-open span:nth-child(1){
+        width: 24px;
+        transform: translate(-7px,17px) rotate(45deg);
+        -webkit-transform: translate(-7px,3px) rotate(45deg);
+      }
+      .head .btn-gnavi.hb-open span:nth-child(2){
+        opacity: 0;
+      }
+
+      .head .btn-gnavi.hb-open span:nth-child(3){
+        width: 24px;
+        transform: translate(-7px,-17px) rotate(-45deg);
+        -webkit-transform: translate(-7px,-17px) rotate(-45deg);
+      }
+
+    .banner-box.flex{
+        flex-direction: column;
+    }
+    .banner .container .banner-box .img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner .container .banner-box .text{
+        width: 100%;
+        margin: 0 auto;
+        line-height: 2.5rem;
+    }
+    .lrb{
+        width: unset;
+    }
+    .recommend .container{
+        max-width: 100%;
+        width: 95%;
+    }
+    .recommend-box{
+        max-width: 100%;
+        width: 95%;
+        padding: 30px 0;
+        display: block;
+    }
+    .lrb-side{
+        border: none;
+        padding-right: 0;
+        width: unset;
+    }
+    .lrb .head{
+        padding: 0;
+
+    }
+    .lrb .head h3{
+        padding-left: 0;
+    }
+    .lrb .header p{
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .lrb .recommend-cards{
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        width: unset;
+    }
+    .lrb .recommend-cards .card{
+        width: 45%;
+        position: relative;
+        margin-right: 0;
+        padding-top: 10px;
+    } 
+    .lrb .recommend-cards .card .img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .lrb .recommend-cards .card3{
+        margin-top: 0;
+     }
+     .lrb .recommend-cards .card4{
+         margin-top: 0;
+         margin-left: 0;
+      }
+      .lrb .recommend-cards .card .text{
+        padding-top: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .lrb .recommend-cards .card .text h2{
+        margin-top: 0;   
+    }
+    .lrb .recommend-cards .card .text p{
+        padding-top: 0;
+    }
+    .category{
+        padding-top: 0;
+    }.category .category-box{
+        padding-right: 0;
+    }
+    .category .category-box .header h2{
+        margin-left: 0;   
+    }
+    .category .category-box .header p{
+        padding-right: 0;
+    }
+    .category-cards{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .category-card{
+        width: 90%;
+        /* height: 224px; */
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .category-card .text{
+        padding-top:0 ;
+        padding-right: 0;
+        line-height: 2rem;
+        width: 80%;
+        margin: 0;
+    }
+
+    .category-card .text p{
+        padding-top: 0;
+    }
+    .rrb{
+        width: unset;
+        padding-left: 0;
+    }
+    .rrb .container{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .rrb .container .fir-sec{
+        width: 100%;
+    }
+    .rrb .container .head{
+        padding: 10px 60px;
+        width: 100%;
+    }
+    .rrb .container .head h3{
+        margin-right: 0;
+    }
+    .rrb .rrb-cards{
+        padding-top: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .rrb .rrb-cards .card3{
+        margin-top: 0;
+    }
+    .rrb .rrb-cards .card{
+        padding: 0;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .rrb .rrb-cards .card .img{
+        width: 30%;height: 30%;
+    
+    }
+    .rrb .rrb-cards .card.flex{
+       align-items: flex-start;
+    }
+    .rrb .rrb-cards .card4{
+        margin-top: 0;
+    }
+    .rrb .rrb-cards .card .text{
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 65%;
+        /* text-align: ;center */
+        padding-bottom: 10px;
+    }
+    .rrb .rrb-cards .card5{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card3 .text p{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card5 .text p{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card2 .text p{
+        padding-bottom: 0;
+    }
+    .about{
+        margin-left: 0;
+        max-width: 100%;
+        width: 95%;
+    }
+    .about .head{
+        max-width: 100%;
+        width: 95%;
+        
+    }
+    .about .head .header{
+        padding-right: 0;
+        max-width: 100%;
+        width: 95%;
+        
+    }
+    .about .head .image img{
+        padding-top: 0;
+        width: 95%;
+        max-width: 100%;
+    }
+    .about .head .text-box{
+        margin-top: 13px;
+    }
+    .about .head .text-box span{
+        margin-left: 9px;
+    }
+    .about .head .button{
+        margin-top: 10px;
+        margin-right: 0;
+        padding: 1;
+        width: 30%;
+    }
+    .facebook{
+        padding-top: 0;
+        margin-left: 0;
+        max-width: 100%;
+        width: 95%;
+        
+    }
+    .fbinfo.flex{
+        flex-direction: row;
+    }
+    .fbinfo{
+        max-width: 100%;
+        width: 95%;
+    }
+    .facebook .head{
+        max-width: 100%;
+        width: 95%;
+        margin-top: 0;
+        padding: 0;
+    }
+    .facebook .head  .image{
+        margin: 0;
+        margin-left: 0;
+    }
+    .facebook .head .header{
+        margin-left: 0;
+    }
+    .facebook .head .header h2{
+        padding-right: 0;
+    }
+    .facebook .head .text-box{
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+    .facebook .head .text-box span{
+        padding-right: 0;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    .facebook .head .text-box p{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .related{
+        margin-top: 45px;
+        min-height: 270px;
+        padding-bottom: 10px;
+    }
+    .related .container{
+        padding: 0;
+        max-width: 100%;
+        width: 95%;
+    }
+    .related .container .head{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .related .container .header p{
+        margin-top: 0;
+        margin-right: 0;
+        padding-bottom: 0;
+    }
+    .related-cards.flex{
+        flex-direction: column;
+    }
+    .related-cards{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .related-cards .card{
+        margin-top: 10px;
+    }
+    .related-cards .card img{
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .footer{
+        width: 100%;
+        overflow-y: hidden;
+        padding: 10px 0;
+    }
+    .footer .container{
+        padding-top: 0;
+        max-width: 100%;
+        width: 95%;
+        }
+    .footer .container .foot-box .links a{
+      display: none;
+    }
+    .footer .container .foot-box .rlinks{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer .container .foot-box .rlinks .a2{
+        margin-left: 0;
+    }
+    .footer .container .foot-box i{
+        padding-top: 0;
+        margin-right: 10px;
+    }
+    .footer .container  h5{
+       margin-top: 25px;
+    }
+
+    .footer .container .foot-box .rlinks .a1,.a2{
+        font-size: 14px;
+    }
+
+
+}
+@media(max-width:480px) {
+    /* .rsec{
+        width: 150px;
+    } */
+    .recommend-box{
+        width: 100%;
+        padding: 30px 0;
+        
+    }
+    .lrb-side{
+        width: 100%;
+        padding: 0;
+    }
+    .lrb .head{
+        padding: 0;
+    }
+    .lrb .head h3{
+        padding-left: 0;
+    }
+    .lrb .header p{
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .lrb .recommend-cards{
+        width: 100%;
+    }
+    .lrb .recommend-cards.flex{
+        flex-direction: column;
+    }
+    .lrb .recommend-cards .card{
+        width: 100%;
+        position: relative;
+        margin-right: 0;
+        margin-top: 0;
+       
+    } 
+    .lrb .recommend-cards .card .img{
+        width: 100%;
+        margin: 0;
+    }
+    .lrb .recommend-cards .card3{
+        margin-top: 0;
+     }
+     .lrb .recommend-cards .card4{
+         margin-top: 0;
+         margin-left: 0;
+      }
+      .lrb .recommend-cards .card .text{
+        padding-top: 0;
+        width: 100%;        
+        line-height: 2rem;
+    }
+    .lrb .recommend-cards .card .text h2{
+        margin-top: 0;   
+    }
+    .lrb .recommend-cards .card .text p{
+        padding-top: 0;
+        
+    }
+    .category{
+        padding-top: 0;
+    }.category .category-box{
+        padding-right: 0;
+    }
+    .category .category-box .header h2{
+        margin-left: 0;   
+    }
+    .category .category-box .header p{
+        padding-right: 0;
+    }
+    .category-cards.flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .category-card{
+        width: 100%;
+        /* height: 224px; */
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .category-card .text{
+        padding-top:0 ;
+        padding-right: 0;
+        line-height: 2rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .rrb{
+        width: unset;
+        padding-left: 0;
+    }
+    .rrb .container{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .rrb .container .fir-sec{
+        width: 100%;
+    }
+    .rrb .container .head{
+        padding: 10px 60px;
+        width: 100%;
+    }
+    .rrb .container .head h3{
+        margin-right: 0;
+    }
+    .rrb .rrb-cards{
+        padding-top: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .rrb .rrb-cards .card3{
+        margin-top: 0;
+    }
+    .rrb .rrb-cards .card{
+        padding: 0;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .rrb .rrb-cards .card .img{
+        width: 80%;height: 80%;
+        margin: 0 auto;
+    }
+    .rrb .rrb-cards .card.flex{
+        flex-direction: column;
+    }
+    .rrb .rrb-cards .card4{
+        margin-top: 0;
+    }
+    .rrb .rrb-cards .card .text{
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .rrb .rrb-cards .card5{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card3 .text p{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card5 .text p{
+        padding-bottom: 0;
+    }
+    .rrb .rrb-cards .card2 .text p{
+        padding-bottom: 0;
+    }
+    .about{
+        margin-left: 0;
+        max-width: 100%;
+        width: 95%;
+    }
+    .about .head{
+        max-width: 100%;
+        width: 95%;
+        
+    }
+    .about .head .header{
+        padding-right: 0;
+        max-width: 100%;
+        width: 95%;
+        
+    }
+    .about .head .image img{
+        padding-top: 0;
+        width: 95%;
+        max-width: 100%;
+    }
+    .about .head .text-box{
+        margin-top: 13px;
+    }
+    .about .head .text-box span{
+        margin-left: 9px;
+    }
+    .about .head .button{
+        margin-top: 10px;
+        margin-right: 0;
+        width: 70%;
+        padding: unset;
+    }
+    .facebook{
+        padding-top: 0;
+        margin-left: 0;
+        max-width: 100%;
+        width: 95%;
+        
+    }
+    .fbinfo.flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fbinfo{
+        max-width: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .facebook .head{
+        max-width: 100%;
+        width: 95%;
+        margin-top: 0;
+        padding: 0;
+    }
+    .facebook .head  .image{
+        margin: 0;
+        margin-left: 0;
+    }
+    .facebook .head .header{
+        margin-left: 0;
+    }
+    .facebook .head .header h2{
+        padding-right: 0;
+    }
+    .facebook .head .text-box{
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+    .facebook .head .text-box span{
+        padding-right: 0;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .facebook .head .text-box p{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .related{
+        margin-top: 45px;
+        min-height: 270px;
+        padding-bottom: 10px;
+    }
+    .related .container{
+        padding: 0;
+        max-width: 100%;
+        width: 95%;
+    }
+    .related .container .head{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+        
+    }
+    .related .container .head h2{
+        font-size: 20px;
+        padding: 0;
+    }
+    .related .container .header p{
+        margin-top: 0;
+        margin-right: 0;
+        padding-bottom: 0;
+    }
+    .related-cards.flex{
+        flex-direction: column;
+    }
+    .related-cards{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .related-cards .card{
+        margin-top: 10px;
+    }
+    .related-cards .card img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .footer{
+        width: 100%;
+        overflow-y: hidden;
+        padding: 10px 0;
+    }
+    .footer .container{
+        padding-top: 0;
+        max-width: 100%;
+        width: 95%;
+        }
+    .footer .container .foot-box .links a{
+      display: none;
+    }
+    .footer .container .foot-box .rlinks{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer .container .foot-box .rlinks .a2{
+        margin-left: 0;
+    }
+    .footer .container .foot-box i{
+        padding-top: 0;
+        margin-right: 10px;
+    }
+    .footer .container  h5{
+       margin-top: 25px;
+    }
+
+    .footer .container .foot-box .rlinks .a1{
+        font-size: 12px;
+    }
+    .footer .container .foot-box .rlinks .a2{
+        font-size: 12px;
+    }
+}
